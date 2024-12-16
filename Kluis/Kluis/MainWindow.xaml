@@ -1,0 +1,24 @@
+﻿<Window x:Class="Kluis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kluis"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <UniformGrid Columns="3" Rows="4" Margin="10">
+            <Button Content="7" Click="NumberButton_Click"/>
+            <Button Content="8" Click="NumberButton_Click"/>
+            <Button Content="9" Click="NumberButton_Click"/>
+            <Button Content="4" Click="NumberButton_Click"/>
+            <Button Content="5" Click="NumberButton_Click"/>
+            <Button Content="6" Click="NumberButton_Click"/>
+            <Button Content="1" Click="NumberButton_Click"/>
+            <Button Content="2" Click="NumberButton_Click"/>
+            <Button Content="3" Click="NumberButton_Click"/>
+            <Button Content="0" Click="NumberButton_Click"/>
+        </UniformGrid>
+        <TextBlock x:Name="InputDisplay" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,40" Text=""/>
+    </Grid>
+</Window>
